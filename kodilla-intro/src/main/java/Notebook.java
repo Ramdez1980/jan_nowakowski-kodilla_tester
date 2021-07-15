@@ -40,12 +40,12 @@ public class Notebook {
     }
         public void checkNumber() {
         if (this.number == 1) {
-            System.out.println("Ten laptop jest z: " + this.year + " roku " +   "dlatego kosztuje tylko " + this.price + " złotych");
+            System.out.println("Ten laptop jest z: " + this.year + " roku " +   "dlatego kosztuje tylko " + this.price + " zł.");
         } else if (this.number == 2){
-            System.out.println("Ten laptop jest z: " + this.year + " roku "  + "dlatego kosztuje " + this.price + " złotych");
+            System.out.println("Ten laptop jest z: " + this.year + " roku "  + "dlatego kosztuje " + this.price + " zł.");
 
         } else {
-            System.out.println("Ten laptop jest z: " + this.year + " roku "  +"dlatego kosztuje " + this.price + " złotych. " + "Fajne ale drogie." );
+            System.out.println("Ten laptop jest z: " + this.year + " roku "  +"dlatego kosztuje " + this.price + " zł. " + "Fajne ale drogie." );
 
         }
     }
