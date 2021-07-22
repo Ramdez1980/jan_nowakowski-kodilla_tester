@@ -15,21 +15,23 @@ public class Grades {
         this.grades[this.size] = value;
         this.size++;
     }
-
-    public void srednia(int srednia,int sum) {
-
-
-        for (int i = 0; i <= 10; i++) {
-            sum += grades[i];
+    public double average() {
+        if (size == 0) {
+            return 0;
         }
+        double sum = 0;
+        for (int i = 0; i < size; i++) {
+            sum = sum + grades[i];
 
-        int numberOfElements = grades.length;
+        }
+        return sum / size;
+    }
 
-        srednia = sum / numberOfElements;
-
-
-        System.out.println("Sum of array elements is:" + sum);
-        System.out.println("srednia" + srednia);
+    public int getlast() {
+        if (size == 0) {
+            return 0;
+        }
+        return grades[size - 1];
 
 
     }
