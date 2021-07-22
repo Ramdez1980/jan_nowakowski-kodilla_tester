@@ -27,7 +27,7 @@ public class Grades {
         return sum / size;
     }
 
-    public int getlast() {
+    public int getLast() {
         if (size == 0) {
             return 0;
         }
