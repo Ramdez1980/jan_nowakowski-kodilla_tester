@@ -2,7 +2,7 @@ package com.kodilla.inheritance.homework;
 
 public class OperatingSystem {
 
-    private int YearOfPublication;
+    private int yearOfPublication;
 
     public void turnOn() {
         System.out.println("System is turned on");
@@ -13,11 +13,11 @@ public class OperatingSystem {
     }
 
     public OperatingSystem(int YearOfPublication) {
-        this.YearOfPublication = YearOfPublication;
+        this.yearOfPublication = yearOfPublication;
     }
 
-    public int getYearOfPublication() {
-        return YearOfPublication;
+    public int getyearOfPublication() {
+        return yearOfPublication;
     }
 
 }

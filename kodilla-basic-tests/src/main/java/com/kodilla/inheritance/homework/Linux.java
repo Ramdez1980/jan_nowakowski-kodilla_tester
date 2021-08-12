@@ -15,6 +15,6 @@ public class Linux extends OperatingSystem {
         System.out.println("Turn On Linux system");
     }
 
-    public Linux(int YearOfPublication)
-    {super(YearOfPublication);}
+    public Linux(int yearOfPublication)
+    {super(yearOfPublication);}
 }

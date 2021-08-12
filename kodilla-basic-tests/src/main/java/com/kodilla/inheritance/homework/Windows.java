@@ -14,6 +14,6 @@ public class Windows extends OperatingSystem{
         System.out.println("Turn On Windows system");
     }
 
-    public Windows(int YearOfPublication) {super(YearOfPublication);}
+    public Windows(int yearOfPublication) {super(yearOfPublication);}
 
 }
