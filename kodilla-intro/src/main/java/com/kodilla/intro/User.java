@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package com.kodilla.intro;
 
 public class User {
 

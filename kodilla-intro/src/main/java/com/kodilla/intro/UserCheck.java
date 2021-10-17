@@ -1,3 +1,5 @@
+package com.kodilla.intro;
+
 public class UserCheck {
     String name;
     int age;
